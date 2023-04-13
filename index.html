@@ -11,12 +11,10 @@
 <!-- <script src="https://kit.fontawesome.com/68c7d9ca3a.js" crossorigin="anonymous"></script> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 <body>
-  <form>
-    <!-- <!-- <input type="file" multiple> -->
-    <input type="file" accept=".jpg, .png">
-    <!-- <input type="file" accept="image/*"> -->
-    <!-- <input type="file" accept="videos/*"> -->
-
+  <form action="https://formspree.io/f/mgebpnbr" method="POST">
+    <input type="text" name="name" placeholder="Name" required minlength="3" maxlength="10">
+    <input type="email" name="email" placeholder="Email" required >
+    <button type="submit">Submit</button>
   </form>
 </body>
 </html>
